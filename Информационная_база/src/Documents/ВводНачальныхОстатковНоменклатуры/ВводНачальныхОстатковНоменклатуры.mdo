@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f3a6524-4dfc-4041-8c75-a500348b1f92">
+  <producedTypes>
+    <objectType typeId="b6c85362-fd19-4eb3-87a5-ac40c6adfb51" valueTypeId="73fd08ca-17fb-4bc0-b2ac-b575f0ddb1ef"/>
+    <refType typeId="711063b6-75d6-4794-8f6d-8c0350b52d52" valueTypeId="24446fe1-cb5d-4f4d-80e4-f36414861c55"/>
+    <selectionType typeId="78dec815-ed00-4a6d-992f-9728c4d99b91" valueTypeId="916e3617-683a-4a2c-a1b9-a0d5fe26e2cc"/>
+    <listType typeId="2e37eba1-6be1-4355-95d8-f30823b1eb45" valueTypeId="aa507692-a52b-4bb1-ae39-c8b33ed0a8c3"/>
+    <managerType typeId="d00522b3-d8cb-4bb0-b8c2-eea2d188cd25" valueTypeId="af31705a-e318-4cc9-9de6-b7bf9bdfa0dc"/>
+  </producedTypes>
+  <name>ВводНачальныхОстатковНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод начальных остатков номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВводНачальныхОстатковНоменклатуры.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВводНачальныхОстатковНоменклатуры.Form.ФормаДокумента</defaultObjectForm>
+  <posting>Deny</posting>
+  <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="ddaec2d4-07c8-4720-abe1-67899ddae8b5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
